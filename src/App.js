@@ -1,10 +1,9 @@
-import './App.css';
-import Product from './components/Product';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Product from "./components/Product";
 
 function App() {
-  return (
-    <Product />
-  );
+    return <Product />;
 }
 
 export default App;
